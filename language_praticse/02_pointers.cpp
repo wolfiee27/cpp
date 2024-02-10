@@ -8,7 +8,6 @@ int main() {
     // use the pointer var to store the addr of score
     int score = 100;
     int *myPointer = &score;
-
     printf("1) \tscore: %d \n", score);
     printf("1) \tpointer: %p \n \n", myPointer);
 
@@ -17,7 +16,6 @@ int main() {
     // modify the ref var and observe the changes in the hardlinked var
     int &anotherScore = score;
     anotherScore = 200;
-
     printf("2) \tscore: %d \n", score);
     printf("2) \tpointer: %p \n \n \n", myPointer);
 
