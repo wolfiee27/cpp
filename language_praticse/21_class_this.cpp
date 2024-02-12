@@ -10,7 +10,7 @@ class Rectangle{
     
     public:
         Rectangle(const double l = 2.0, const double b = 2.0) : _length(l), _breath(b) {
-            puts("default constructor intialized");
+            puts("parameterized constructor intialized");
         }
 
         double area() {
